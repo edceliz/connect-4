@@ -1,0 +1,16 @@
+{
+  "name": "connect-4",
+  "version": "1.0.0",
+  "description": "Connect 4 using NodeJS and WS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Edcel Celiz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}

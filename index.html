@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect 4</title>
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/custom.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="columns">
+                <h2 class="spacer">Connect 4</h2>
+            </div>      
+        </div>
+        <div class="row">
+            <div class="columns">
+                <a class="button button-primary" href="/start">Create Room</a>
+            </div>      
+        </div>
+        <hr />
+        <div class="row">
+            <div class="columns">
+                <form method="POST" action="/join" enctype="application/x-www-form-urlencoded">
+                    <div class="row">
+                        <div class="four columns">
+                            <label for="roomCode">Room Code</label>
+                            <input class="u-full-width" type="text" placeholder="XXXXXX" id="roomCode" name="roomCode" maxlength="6" minlength="6">
+                        </div>
+                    </div>
+                    <input class="button-primary" type="submit" value="Join Room">
+                </form>                  
+            </div>      
+        </div>
+    </div>
+</body>
+</html>

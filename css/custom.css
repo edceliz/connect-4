@@ -1,0 +1,33 @@
+.spacer {
+    margin: 1em 0;
+}
+
+.zero-margin {
+    margin: 0;
+}
+
+.cell {
+    width: 14.28%;
+    text-align: center;
+    border-left: 1px solid #ddd;
+}
+
+.cell:last-child {
+    border-right: 1px solid #ddd;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red-dot {
+    background-color: red;
+}
+
+.blue-dot {
+    background-color: blue;
+}
